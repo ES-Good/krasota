@@ -256,7 +256,8 @@ a {
         letter-spacing: .05em;
         color: #25262a;
         font-size: 15px;
-        text-decoration: none !important; }
+        text-decoration: none !important;
+        border: 1px solid #000; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
           color: #000; }
     .site-navbar .site-navigation .site-menu .has-children {
@@ -898,7 +899,8 @@ a {
   border-left: none;
   position: relative;
   padding-left: 0px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  font-size: 26px; }
   .title-section.text-center h2:after {
     display: none;
     position: absolute;
@@ -1132,4 +1134,10 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+.connection{
+  border:1px solid #000;
+  padding: 10px;
+  color: #000;
 }
